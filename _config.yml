@@ -99,16 +99,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
+        title: "主页",
         href: "https://roger-chemo.tk/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简历",
+        href: "https://chemolib.tk/"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "南开大学",
+        href: "https://www.nankai.edu.cn"
     },{
-        title: "Apple Developer",
+        title: "HCY",
         href: "https://developer.apple.com/"
     }
 ]
