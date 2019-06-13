@@ -56,8 +56,8 @@ kramdown:
 
 
 # 评论系统
-Disqus（https://disqus.com/）
-disqus_username: nankaigc
+#Disqus（https://disqus.com/）
+#disqus_username: nankaigc
 
 # Gitalk
 gitalk:
@@ -108,7 +108,7 @@ friends: [
         title: "南开大学",
         href: "https://www.nankai.edu.cn"
     },{
-        title: "HCY",
-        href: "https://user.qzone.qq.com/1985870483/infocenter"
+        title: "Hinton",
+        href: "http://www.cs.toronto.edu/~hinton/"
     }
 ]
