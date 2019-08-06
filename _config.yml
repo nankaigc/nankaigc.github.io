@@ -70,8 +70,8 @@ kramdown:
 #  distractionFreeMode: true
 
 <div id= "gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<link rel= "stylesheet" href= "https://imsun.github.io/gitment/style/default.css">
+<script src= "https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
     owner: 'nankaigc',
@@ -115,7 +115,7 @@ service-worker: true
 friends: [
     {
         title: "主页",
-        href: "https://roger-chemo.tk/"
+        href: "https://roger-blog.tk/"
     },{
         title: "简历",
         href: "https://chemolib.tk/"
