@@ -56,17 +56,17 @@ kramdown:
 
 
 # 评论系统
-#disqus_username: rogergc
+disqus_username: rogergc
 
 # Gitalk
-gitalk:
-  enable: true
-  githubID: nankaigc  # 例：asdfv1929   
-  repo: nankaigc.github.io   # 例：asdfv1929.github.io
-  ClientID: 63a23369a052bf851192
-  ClientSecret: 344c42747695fdaaa336415f7cd5ee24628f5bda
-  adminUser: nankaigc #指定可初始化评论账户
-  distractionFreeMode: true
+#gitalk:
+#  enable: true
+#  githubID: nankaigc  # 例：asdfv1929   
+#  repo: nankaigc.github.io   # 例：asdfv1929.github.io
+#  ClientID: 63a23369a052bf851192
+#  ClientSecret: 344c42747695fdaaa336415f7cd5ee24628f5bda
+#  adminUser: nankaigc #指定可初始化评论账户
+#  distractionFreeMode: true
 
 
 # 统计
@@ -99,7 +99,7 @@ service-worker: true
 friends: [
     {
         title: "主页",
-        href: "https://roger-blog.tk/"
+        href: "https://nankaigc.github.io"
     },{
         title: "简历",
         href: "https://chemolib.tk/"
