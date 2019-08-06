@@ -57,7 +57,7 @@ kramdown:
 
 # 评论系统
 #Disqus（https://disqus.com/）
-#disqus_username: roger_gc
+disqus_username: roger_gc
 
 # Gitalk
 #gitalk:
@@ -68,15 +68,7 @@ kramdown:
 #  ClientSecret: 9d2f5349c91f27627a02a719469a3ea4c7899739
 #  adminUser: nankaigc #指定可初始化评论账户
 #  distractionFreeMode: true
-gitalk:
-  enable: true
-  githubID: nankaigc  # 例：asdfv1929   
-  repo: nankaigc.github.io   # 例：asdfv1929.github.io
-  ClientID: 63a23369a052bf851192
-  ClientSecret: 344c42747695fdaaa336415f7cd5ee24628f5bda
-  adminUser: nankaigc #指定可初始化评论账户
-  labels: 'gitalk' #GitHub issues的标签
-  distractionFreeMode: true
+
 
 # 统计
 
