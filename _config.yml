@@ -60,14 +60,14 @@ kramdown:
 #disqus_username: roger_gc
 
 # Gitalk
-gitalk:
-  enable: true
-  githubID: nankaigc  # 例：asdfv1929   
-  repo: nankaigc.github.io   # 例：asdfv1929.github.io
-  ClientID: 7648b8e373b4acd371b1
-  ClientSecret: 9d2f5349c91f27627a02a719469a3ea4c7899739
-  adminUser: nankaigc #指定可初始化评论账户
-  distractionFreeMode: true
+#gitalk:
+#  enable: true
+#  githubID: nankaigc  # 例：asdfv1929   
+#  repo: nankaigc.github.io   # 例：asdfv1929.github.io
+#  ClientID: 7648b8e373b4acd371b1
+#  ClientSecret: 9d2f5349c91f27627a02a719469a3ea4c7899739
+#  adminUser: nankaigc #指定可初始化评论账户
+#  distractionFreeMode: true
 
 
 # 统计
