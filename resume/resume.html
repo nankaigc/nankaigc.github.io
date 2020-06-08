@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>[简历]郭成-化学计量学/天津</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed(){
+                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                        document.getElementById('side').style.position = value;
+                    }
+                </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <style>
+                @media (min-width: 	750px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#1abc9c;}
+                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="assets/images/1.jpg" onload="loading()">
+                </section>
+
+                <h1 class="name">郭成</h1>
+                <h4 class="info-job">化学计量学 / 天津</h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>个人信息</label>
+                        <span>郭成 / 男 / 31岁</span>
+                    </li>
+                    <li>
+                        <label>英语水平</label>
+                        <span>CET-6</span>
+                    </li>
+                    <li>
+                        <label>计算机水平</label>
+                        <span>VB二级-优秀</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>手机</label>
+                        <a href="tel:18252580895" target="_blank">182-5258-0895</a>
+                    </li>
+                    <li>
+                        <label>邮箱</label>
+                        <a href="mailto:roger_gc@outlook.com" target="_blank">roger_gc@outlook.com</a>
+                    </li>
+                    <li>
+                        <label>个人主页</label>
+                        <a href="https://nankaigc.github.io/" target="_blank">https://nankaigc.github.io//</a>
+                    </li>
+                    <li>
+                        <label>Github</label>
+                        <a href="https://github.com/nankaigc" target="_blank">https://github.com/nankaigc</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 技能点 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>Matlab</label>
+                        <progress value="90" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Python</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Chemometrics</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Deeplearning</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Raspberry Pi</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>NIR</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="qrcode info-unit">
+                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>二维码</h2>
+                <hr/>
+                <img src="https://github.com/if2er/FeZaoDuKe-Collection/blob/master/ifeees.jpg?raw=true" style="width: 100%;" alt="">
+            </section>
+
+            <!-- 技术栈 -->
+            <!-- <div class="stack info-unit">
+                    <h2><i class="fa fa-code" aria-hidden="true"></i>其他</h2>
+                    <hr/>
+                    <ul>
+                        <li>
+                            <label>前端</label>
+                            <span>React、jQuery、微信小程序、Bootstrap、SASS、LESS</span>
+                        </li>
+                        <li>
+                            <label>后端</label>
+                            <span>Node.js、MySQL、MongoDB、WordPress、ThinkPHP</span>
+                        </li>
+                        <li>
+                            <label>其他</label>
+                            <span>Git、SVN、Markdown</span>
+                        </li>
+                    </ul>
+                </div> -->
+        </section>
+
+        <section class="main">
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>南开大学大学 - 分析化学专业（博士）</span>
+                            <time>2017.9-2021.7</time>
+                        </h3>
+                        <p>专业排名
+                            <mark>X/XX</mark>，期间发表国际会议英文摘要X篇，国内核心期刊文章X篇（其中第一作者X篇），获XXX，XXX2次，XXX2次。</p>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>江苏科技大学 - 生物学专业（硕士）</span>
+                            <time>2014.9-2017.7</time>
+                        </h3>
+                        <p>专业排名
+                            <mark>Top5%</mark>，期间发表SCI1篇，国内核心期刊文章4篇，一等奖学金3次，二等企业奖学金1次。</p>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>上海工程技术大学 - 高分子材料与工程专业（学士）</span>
+                            <time>2008.9-2012.7</time>
+                        </h3>
+                        <p>专业排名
+                            <mark>Top5%</mark>，期间发表核心期刊文章1篇，一等奖学金3次，二等企业奖学金1次。</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 工作经历 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>工作经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[经历]上海市涂料研究所－检测中心－检测员</span>
+                            <time>2012.8 至 2013.7</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>荣获上海华谊（集团）公司新入司大学生培训班“优秀学员”称号
+                                <mark>物性室，负责涂料、树脂、颜料的理化性能检测</mark></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <!-- 发表文章 -->
+            <section class="article info-unit">
+                <h2>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>发表文章</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[1] Hui Yan, Cheng Guo, Yang Shao, et al. Rapid detection the volatile oil in Mentha haplocalyx by near-infrared spectroscopy and Chemometics. Pharmacognosy Magazine, 13 (2017) 439-445. </span>
+                        </h3>
+                    </li>
+                    <li>    
+                        <h3>
+                            <span>[2] Jin Zhang, Cheng Guo, Xiaoyu Cui, et al., A two-level strategy for standardization of near infrared spectra by multi-level simultaneouscomponent analysis, Anal. Chim. Acta, 1050 (2019) 25-31. </span>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[3] 郭成, 马月, 梁梦醒, 等. 基于近红外光谱结合波长优选检测单颗葡萄的SSC含量. 食品与机械. 2016, 32(9): 39-43. </span>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[4] 颜辉, 郭成, 第丹丹, 等. 应用手持式近红外光谱仪检测检测桑椹可溶性固形物含量的偏最小二乘回归模型建立. 蚕业科学. 2016, 42(6): 1077-1084. </span>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[5] 郭成, 梁梦醒, 江明珠, 等. 在线检测无花果中可溶性固形物的近红外漫透射技术研究. 江苏科技大学学报（自然科学版）. 2018, 32(2): 285-290, 297. </span>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[6] 颜辉, 梁梦醒, 郭成, 等. 利用在线近红外光谱鉴别雌雄蚕蛹的方法. 蚕业科学. 2018, 44(2): 283-289. </span>
+                        </h3>
+                    </li>
+                </ul>
+            </section>
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>个人项目</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[项目1]江苏科技大学研究生科技创新计划“基于NIR和移动互联的道地药材（丁香）品质快速检测方法研究（YCX15S-21）</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2016-2017</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目2]科技部中医药行业专项“中药材品质快速检测方法”（201407003）</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2014-2017</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目3]镇江市农业科技支撑项目“活性水果品质无损检测与移动互联网的集成创新及示范”（NY2014032）</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2014-2016</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目4]第十届“创新杯”大学生课外学术科技作品竞赛，“基于NIR和移动互联的快速检测系统研发及应用”</span>
+                            <span class="link">
+                                <a href="#" target="_blank">Demo</a>
+                            </span>
+                            <time>2016-2017</time>
+                        </h3>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
+                <hr/>
+                <p>[对事物有敏锐的洞察力；个性开朗活泼，兴趣广泛；思路开阔，办事沉稳；关心集体，责任心强；待人诚恳，工作主动认真，富有敬业精神。]
+                    <span class="mark-txt">“多静多思考，反省不张扬”</span>是我给自己总结的“十字箴言”，鞭策自己做人既不能以己度人，也不以人观己，要脚踏实地做事，坚持自己的梦想和本心。</p>
+            </section>
+        </section>
+    </article>
+
+
+
+    <footer class="footer">
+        <p>© 2020 郭成.文档最后更新时间为
+            <time>2020年06月08日</time>.</p>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+        <ul>
+            <li> </li>
+            <li> </li>
+        </ul>
+    </aside>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
