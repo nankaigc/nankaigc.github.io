@@ -29,13 +29,13 @@ $.chuncai = function(option) {
             "和春菜聊天": 1,
             "传送门": {
                 "博客": function() {
-                    window.open("http://lutao1726.oschina.io");
+                    window.open("https://nankaigc.github.io/");
                 },
                 "码云": function() {
-                    window.open("https://gitee.com/lutao1726");
+                    window.open("https://gitee.com/guocheng_blog");
                 },
                 "Git": function() {
-                    window.open("https://lutao1726.github.io/");
+                    window.open("https://https://github.com/nankaigc/");
                 }
             },
             "隐藏春菜": function() {
