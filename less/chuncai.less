@@ -1,0 +1,169 @@
+.animation(@args){
+    -o-animation: @args;
+    -moz-animation: @args;
+    -webkit-animation: @args;
+    animation: @args;
+}
+
+.chuncai-main{
+    left:90%;
+    top:70%;
+    display:block;
+    position:fixed;
+    z-index:100;
+    width:85px;
+    height:152px;
+    overflow:visible;
+    font-family: "Microsoft Yahei",Helvetica,Arial,sans-serif;
+    
+    @inputheight: 28px;
+    >.chuncai-face{
+        position:absolute;
+        right:0;
+        top: @inputheight;
+        width:85px;
+        height:152px;  
+        cursor:grab;
+        cursor: -webkit-grab;
+        &:active{
+            cursor:grabbing;
+            cursor:-webkit-grabbing;
+        }
+    }
+    >.chuncai-face-00{
+        background:url(../images/face00.png) no-repeat;
+        
+        >.chuncai-face-eye{
+            background:url(../images/face-eyes.png) no-repeat;
+            // display: none;
+            left: 14px;
+            top: 49px;
+            width:44px;
+            height:19px;
+            position: absolute;
+            .animation(ccblink 5s infinite);
+        }
+    }
+    >.chuncai-face-01{
+        background:url(../images/face01.png) no-repeat;
+    }
+    >.chuncai-face-02{
+        background:url(../images/face02.png) no-repeat;
+    }
+    
+    >.chuncai-chat{
+        position:absolute;
+        left:-210px;
+        top:@inputheight; 
+        
+        width: 16em;
+        border: 1px solid #ff5a77;
+        background: #ffe;
+        font-size: 12px;
+        border-radius: 4px;
+        
+          &::before ,
+          &::after{              
+            position: absolute;
+            bottom: -4px;
+            right: 3px;
+            border-bottom: 5px solid transparent;
+            border-right: 14px solid #ffe;
+            content: '';  
+          };
+        &::before {
+            bottom: -5px;
+            right: 2px;
+            border-right: 16px solid #ff5a77;
+        };
+        
+        >.chuncai-word{
+            padding: 0.5em;
+            color: gray;
+            min-height: 15px;
+            word-wrap: break-word;
+        }
+        
+        >.chuncai-menu{
+            display:none;
+            > a{
+                cursor:pointer;
+                display: inline-block;
+                width: 50%;
+                text-align: center;
+                color:#d2322d;
+            }
+        }
+        
+        >.chuncai-menu-btn{
+            text-align:right;
+            margin-top: 0.3em;
+            padding: 0 10px 2px;
+            color: #ff5a77;
+            font-family: monospace;
+            text-align: right;
+            cursor: pointer;
+        }
+    }
+    >.chuncai-input {
+            width: 240px;
+            height: @inputheight;
+            border: 1px;
+            overflow: auto;
+            position: absolute;
+            display: none;
+            left:-210px;
+            top: 0;
+
+            >.chucai-talk {
+                float: left;
+            }
+            
+            >.chucai-talkto {
+                float: right;
+                background: url(../images/ok.jpg) no-repeat;
+                cursor: pointer;
+            }
+        }
+}
+
+a.chuncai-zhaohuan{
+    display:none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0.5em 0.75em;
+    padding: 1px 0.7em;
+    border: 1px solid #ff5a77;
+    color:#d2322d;
+    background: #ffe;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* 眨眼 */
+@-o-keyframes ccblink{
+    0% {opacity: 0; }
+    79% {opacity: 0; }
+    80%{opacity: 1; }
+    100%{opacity: 0; }
+}
+@-moz-keyframes ccblink{
+    0% {opacity: 0; }
+    79% {opacity: 0; }
+    80%{opacity: 1; }
+    100%{opacity: 0; }
+}
+@-webkit-keyframes ccblink{
+    0% {opacity: 0; }
+    79% {opacity: 0; }
+    80%{opacity: 1; }
+    100%{opacity: 0; }
+}
+@keyframes ccblink{
+    0% {opacity: 0; }
+    79% {opacity: 0; }
+    80%{opacity: 1; }
+    100%{opacity: 0; }
+}
