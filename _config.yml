@@ -98,16 +98,19 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "主页",
-        href: "https://nankaigc.github.io"
-    },{
         title: "简历",
         href: "https://nankaigc.github.io/resume"
     },{
-        title: "南开大学",
-        href: "https://www.nankai.edu.cn"
+        title: "化学信息学",
+        href: "http://www.cheminfolab.cn/"
     },{
-        title: "Hinton",
-        href: "http://www.cs.toronto.edu/~hinton/"
+        title: "江苏医药职业学院",
+        href: "https://www.jsmc.edu.cn/main.htm"
+    },{
+        title: "实验室",
+        href: "https://bioinfolabjsmc.github.io/"
+    },{
+        title: "ORCiD",
+        href: "https://orcid.org/0000-0002-9527-4439"
     }
 ]
